@@ -6,7 +6,7 @@ import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
-import StartUp from '../components/StartUp/Startup';
+// import StartUp from '../components/StartUp/Startup';
 
 const Home = () => {
   return (
