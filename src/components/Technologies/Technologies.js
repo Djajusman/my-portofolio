@@ -31,7 +31,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            HTML, CSS, JavaScript, React, Next.js
+            HTML, XML, CSS, Bootstrap, Tailwind, JavaScript, React, Next.js, Flutter
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +43,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next.js, Wordpress
+            Next.js, Odoo, Python, PHP
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,7 +55,7 @@ const Technologies = () => (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            PS, XD, Zeplin, Figma, Avocode
+            Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -67,7 +67,7 @@ const Technologies = () => (
           <ListTitle>Other Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            WordPress CMS, Jira, Trello, Git
+            Jira, Trello, Git
           </ListParagraph>
         </ListContainer>
       </ListItem>
