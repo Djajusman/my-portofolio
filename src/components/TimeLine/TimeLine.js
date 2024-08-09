@@ -72,7 +72,7 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Riyadh Tsaniyadi Djajusman, i have 3 years experienced Frontend Developer using React JS and Web developer using odoo. And has worked on various projects such as Covidtrac to detect people exposed to the corona virus in collaboration with Dinas Kesehatan Kota Bandung, Hospital management system in collaboration with various government hospitals and also developing School Management System application, etc.
+        Hi, I'm Riyadh Tsaniyadi Djajusman, i have 3+ years experienced Frontend Developer using Javascript Freamework (ReactJS, NextJS) and Web developer using odoo. And has worked on various projects such as Covidtrac to detect people exposed to the corona virus in collaboration with Dinas Kesehatan Kota Bandung, Hospital management system in collaboration with various government hospitals and also developing School Management System application, etc.
       </SectionText>
       <SectionText>
         And i have certiified as Data Scientist from Digital Talent Schoolarship.

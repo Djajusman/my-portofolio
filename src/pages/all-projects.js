@@ -48,7 +48,7 @@ const AllProjects = () => {
         <AnimateSharedLayout>
           <GridContainer layout>
             {data
-              .sort((a, b) => a.order - b.order)
+              .sort((a, b) => b.order - a.order) // Sort from greater order to lowest order
               .map((card) => (
                 <ProjectCard item={card} key={card.id} />
               ))}

@@ -13,7 +13,7 @@ const Projects = () => {
       <SectionTitle>Latest Projects</SectionTitle>
       <GridContainer>
         {projects
-          .sort((a,b) => a.order - b.order)
+          .sort((a, b) => b.order - a.order) // Sort from greater order to lowest order
           .map(card => <ProjectCard item={card} key={card.id} />)
           .slice(0, 3)
         }

@@ -10,7 +10,7 @@ const Footer = () => {
     <FooterWrapper>
       <SocialIconsContainer>
         <SocialMedia inFooter />
-        <span className='justify-center items-center flex pt-2'>Copyright © 2023 Allrights Reserved</span>
+        <span className='justify-center items-center flex pt-2'>Copyright © 2024 Allrights Reserved</span>
       </SocialIconsContainer>
     </FooterWrapper>
   );
