@@ -1,6 +1,6 @@
 import React from "react";
 import { FilterContainer, Button, FilterHeading } from "./ProjectsFilterStyles";
-import { SiReact, SiPython } from "react-icons/si";
+import { SiReact, SiNextdotjs, SiFlutter, SiPython } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
 
 const ProjectsFilter = ({ filter, filterBy }) => (
@@ -27,11 +27,27 @@ const ProjectsFilter = ({ filter, filterBy }) => (
       </Button>
       <Button
         type="button"
+        className={filterBy === "Next" ? "active" : null}
+        aria-label="Filter by NextJS"
+        onClick={() => filter("next")}
+      >
+        <SiNextdotjs />
+      </Button>
+      <Button
+        type="button"
         className={filterBy === "Python" ? "active" : null}
-        aria-label="Filter by Python"
+        aria-label="Filter by Odoo"
         onClick={() => filter("python")}
       >
         <SiPython />
+      </Button>
+      <Button
+        type="button"
+        className={filterBy === "Flutter" ? "active" : null}
+        aria-label="Filter by Flutter"
+        onClick={() => filter("flutter")}
+      >
+        <SiFlutter />
       </Button>
       <Button
         type="button"

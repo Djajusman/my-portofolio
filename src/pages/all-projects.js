@@ -22,6 +22,16 @@ const AllProjects = () => {
         setFilterBy("Python");
         break;
 
+      case "flutter":
+        setData([...projects].filter((p) => p.mainType === "flutter"));
+        setFilterBy("Flutter");
+        break;
+
+      case "next":
+        setData([...projects].filter((p) => p.mainType === "next"));
+        setFilterBy("Next");
+        break;
+
       case "angular":
         setData([...projects].filter((p) => p.mainType === "angular"));
         setFilterBy("Angular");

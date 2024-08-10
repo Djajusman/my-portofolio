@@ -473,6 +473,139 @@ export const projects = [
     mainType: "flutter",
   },
   {
+    title: "AKTI Admin App",
+    description:
+      "Akti Admin App is a comprehensive web-based HR management platform designed to streamline attendance tracking and other HR functions such as leave requests, payslip management, and more. Utilizing Single Sign-On (SSO), it allows seamless access across all applications within the Akti organization without the need for repeated logins. Developed with Next.js for the frontend and NestJS for the backend, and powered by a MySQL database, Akti Admin App ensures a secure, efficient, and user-friendly experience for HR professionals managing employee data and HR tasks.",
+    image: "images/projects/AKTIAdmin/AKTIAdminKehadiran.webp",
+    imageWebp: "images/projects/AKTIAdmin/AKTIAdminKehadiran.webp",
+    images: [
+      {
+        original: "images/projects/AKTIAdmin/AKTIAdminDashboard.webp",
+        loading: "lazy",
+        originalAlt: "AKTIAdminDashboard",
+      },
+      {
+        original: "images/projects/AKTIAdmin/AKTIAdminDataKaryawan.webp",
+        loading: "lazy",
+        originalAlt: "AKTIAdminDataKaryawan",
+      },
+      {
+        original: "images/projects/AKTIAdmin/AKTIAdminKehadiran.webp",
+        loading: "lazy",
+        originalAlt: "AKTIAdminKehadiran",
+      },
+    ],
+    tags: [
+      "Next",
+      "Tailwind CSS",
+      "React hooks",
+      "Redux",
+      "React Suspense",
+      "Router DOM v6",
+      "GIT",
+    ],
+    id: 12,
+    order: 12,
+    mainType: "next",
+  },
+  {
+    title: "Aspirasi Web App",
+    description:
+      "Aspirasi is a dynamic platform designed for legislative candidates to promote themselves by showcasing their achievements, education, and organizational history. The app allows users to submit their aspirations directly to the candidates, enabling candidates to gather valuable feedback and refine their promotional strategies based on user input. Built with Next.js for a responsive frontend, Node.js for a robust backend, and MongoDB for efficient data management, Aspirasi facilitates seamless interaction between candidates and constituents, enhancing the candidates' outreach and engagement efforts.",
+    image: "images/projects/Aspirasi/AspirasiForm.webp",
+    imageWebp: "images/projects/Aspirasi/AspirasiForm.webp",
+    images: [
+      {
+        original: "images/projects/Aspirasi/AspirasiHome.webp",
+        loading: "lazy",
+        originalAlt: "AspirasiHome.webp",
+      },
+      {
+        original: "images/projects/Aspirasi/AspirasiForm.webp",
+        loading: "lazy",
+        originalAlt: "AspirasiForm.webp",
+      },
+      {
+        original: "images/projects/Aspirasi/AspirasiDetailCaleg.webp",
+        loading: "lazy",
+        originalAlt: "AspirasiDetailCaleg.webp",
+      },
+      {
+        original: "images/projects/Aspirasi/AspirasiLogin.webp",
+        loading: "lazy",
+        originalAlt: "AspirasiLogin.webp",
+      },
+      {
+        original: "images/projects/Aspirasi/AspirasiRegister.webp",
+        loading: "lazy",
+        originalAlt: "AspirasiRegister.webp",
+      },
+      {
+        original: "images/projects/Aspirasi/AspirasiListAspirasi.webp",
+        loading: "lazy",
+        originalAlt: "AspirasiListAspirasi.webp",
+      },
+    ],
+    tags: [
+      "Next",
+      "Tailwind CSS",
+      "React hooks",
+      "Redux",
+      "React Suspense",
+      "Router DOM v6",
+      "GIT",
+    ],
+    id: 13,
+    order: 13,
+    mainType: "next",
+  },
+  {
+    title: "Inbiota Web App",
+    description:
+      "Inbiota is an innovative database software designed to gather and catalog plant data along with their contained compounds, revolutionizing natural product research. Leveraging AI, Inbiota facilitates efficient data discovery, making it a powerful tool for researchers and the public alike. The platform, accessible without login, utilizes Elasticsearch to streamline the search process across vast datasets. Built with Next.js for the frontend and Laravel for the backend, Inbiota provides a seamless, user-friendly experience, advancing the accessibility and efficiency of natural product research.",
+    image: "images/projects/Inbiota/InbiotaHome.webp",
+    imageWebp: "images/projects/Inbiota/InbiotaHome.webp",
+    images: [
+      {
+        original: "images/projects/Inbiota/InbiotaHome.webp",
+        loading: "lazy",
+        originalAlt: "InbiotaHome",
+      },
+      {
+        original: "images/projects/Inbiota/InbiotaSearch.webp",
+        loading: "lazy",
+        originalAlt: "InbiotaSearch",
+      },
+      {
+        original: "images/projects/Inbiota/InbiotaContact.webp",
+        loading: "lazy",
+        originalAlt: "InbiotaContact",
+      },
+      {
+        original: "images/projects/Inbiota/InbiotaLogin.webp",
+        loading: "lazy",
+        originalAlt: "InbiotaLogin",
+      },
+      {
+        original: "images/projects/Inbiota/InbiotaRegister.webp",
+        loading: "lazy",
+        originalAlt: "InbiotaRegister",
+      },
+    ],
+    tags: [
+      "Next",
+      "Tailwind CSS",
+      "React hooks",
+      "Redux",
+      "React Suspense",
+      "Router DOM v6",
+      "GIT",
+    ],
+    id: 14,
+    order: 14,
+    mainType: "next",
+  },
+  {
     title: "HRA Mobile App",
     description:
       "HRA Mobile App is a comprehensive HR management tool designed for multiple companies under HRA, providing features like attendance management, secure access to company documents, sales processing for OPB and OPL, and inventory management. Developed using Flutter for cross-platform compatibility, Python and Uvicorn for backend functionality that integrated with Odoo, and MongoDB for data storage, the app ensures efficient and seamless HR operations. Key functionalities include clocking in/out, notification reminder, leave management, real-time attendance tracking, document access, sales order management, and inventory tracking. This app has significantly improved productivity and streamlined HR processes, reducing administrative overhead and enhancing compliance across all user companies.",
@@ -521,8 +654,8 @@ export const projects = [
       },
     ],
     tags: ["Flutter", "Dart", "Firebase Messaging", "Firebase App Distribution", "Odoo Integration", "Python"],
-    id: 12,
-    order: 12,
+    id: 15,
+    order: 15,
     mainType: "flutter",
   },
   {
@@ -553,6 +686,11 @@ export const projects = [
         originalAlt: "AlnerOdooEnterpriseLatency",
       },
       {
+        original: "images/projects/AlnerOdooEnterprise/AlnerOdooEnterpriseGL.webp",
+        loading: "lazy",
+        originalAlt: "AlnerOdooEnterpriseGL",
+      },
+      {
         original: "images/projects/AlnerOdooEnterprise/AlnerOdooEnterpriseAppsList1.webp",
         loading: "lazy",
         originalAlt: "AlnerOdooEnterpriseAppsList1",
@@ -564,8 +702,8 @@ export const projects = [
       },
     ],
     tags: ["Odoo", "Python", "CSS", "HTML"],
-    id: 13,
-    order: 13,
+    id: 16,
+    order: 16,
     mainType: "python",
   },
   {
@@ -616,8 +754,8 @@ export const projects = [
       "Geotaging",
       "GIT",
     ],
-    id: 14,
-    order: 14,
+    id: 17,
+    order: 17,
     mainType: "react",
   },
 ];
