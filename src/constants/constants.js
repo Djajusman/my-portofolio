@@ -758,12 +758,117 @@ export const projects = [
     order: 17,
     mainType: "react",
   },
+  {
+    title: "People Hub HR Web App",
+    description:
+      "People Hub HR Web App is a comprehensive Human Resource management system developed internally for PT. Swamedia Informatika. This modern HR platform streamlines various employee management processes including attendance tracking with geolocation verification, shift management with flexible scheduling options, leave management (time off requests and approvals), and overtime tracking. The application features a user-friendly interface for employees to submit and track their requests, while providing HR administrators with powerful tools for managing workforce data, generating reports, and maintaining compliance. Built with React for the frontend and integrated with a robust backend system, People Hub ensures secure and efficient HR operations while maintaining data privacy and governance standards.",
+    image: "images/projects/PeopleHubHRWebApp/PeopleHubHRWebAppAttendance.webp",
+    imageWebp: "images/projects/PeopleHubHRWebApp/PeopleHubHRWebAppAttendance.webp",
+    images: [
+      {
+        original: "images/projects/PeopleHubHRWebApp/PeopleHubHRWebAppLogin.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Web App Login",
+      },
+      {
+        original: "images/projects/PeopleHubHRWebApp/PeopleHubHRWebAppDashboard.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Web App Dashboard",
+      },
+      {
+        original: "images/projects/PeopleHubHRWebApp/PeopleHubHRWebAppAttendance.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Web App Attendance",
+      },
+      {
+        original: "images/projects/PeopleHubHRWebApp/PeopleHubHRWebAppAttendanceLog.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Web App Attendance Log",
+      },
+      {
+        original: "images/projects/PeopleHubHRWebApp/PeopleHubHRWebAppChartOrg.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Web App CHart Org",
+      },
+    ],
+    tags: [
+      "React",
+      "Reactstrap",
+      "Bootstrap CSS",
+      "React hooks",
+      "Redux",
+      "React Suspense",
+      "Router DOM v6",
+      "Webpack",
+      "Docker",
+      "Nginx",
+      "Geotaging",
+      "GIT",
+    ],
+    id: 18,
+    order: 18,
+    mainType: "react",
+  },
+  {
+    title: "People Hub HR Admin Web App",
+    description:
+      "People Hub HR Admin Web App is a comprehensive administrative control center for PT. Swamedia Informatika's HR management system. This powerful admin platform provides complete configuration and management capabilities for all HR features, including employee data management, time off policies and quotas, salary configurations, and cash advance settings. Administrators can define and customize various HR parameters such as attendance rules, shift patterns, overtime calculations, and leave policies. The system also includes robust employee management features for handling employee profiles, department structures, and role assignments. With advanced reporting tools and audit trails, the admin panel ensures proper oversight of all HR operations while maintaining strict data governance and security standards. Built with React for the frontend and integrated with a secure backend system, this admin platform serves as the central hub for configuring and managing all aspects of the People Hub HR ecosystem.",
+    image: "images/projects/PeopleHubHRAdminWebApp/PeopleHubHRAdminWebAppDashboard.webp",
+    imageWebp: "images/projects/PeopleHubHRAdminWebApp/PeopleHubHRAdminWebAppDashboard.webp",
+    images: [
+      {
+        original: "images/projects/PeopleHubHRAdminWebApp/PeopleHubHRAdminWebAppLogin.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Admin Web App Login",
+      },
+      {
+        original: "images/projects/PeopleHubHRAdminWebApp/PeopleHubHRAdminWebAppDashboard.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Admin Web App Dashboard",
+      },
+      {
+        original: "images/projects/PeopleHubHRAdminWebApp/PeopleHubHRAdminWebAppLeave.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Admin Web App Leave",
+      },
+      {
+        original: "images/projects/PeopleHubHRAdminWebApp/PeopleHubHRAdminWebAppPermition.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Admin Web App Permition",
+      },
+      {
+        original: "images/projects/PeopleHubHRAdminWebApp/PeopleHubHRAdminWebAppPolicy.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Admin Web App Policy",
+      },
+      {
+        original: "images/projects/PeopleHubHRAdminWebApp/PeopleHubHRAdminWebAppReimbursement.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Admin Web App Reimbursement",
+      },
+      {
+        original: "images/projects/PeopleHubHRAdminWebApp/PeopleHubHRAdminWebAppAttendanceLog.webp",
+        loading: "lazy",
+        originalAlt: "People Hub HR Admin Web App Attendance Log",
+      },
+    ],
+    tags: [
+      "Next",
+      "Tailwind CSS",
+      "React hooks",
+      "Redux",
+      "React Suspense",
+      "Router DOM v6",
+      "GIT",
+    ],
+    id: 19,
+    order: 19,
+    mainType: "next",
+  },
 ];
 
 export const TimeLineData = [
   { year: 2020, text: "Starting my career as a Front-End Developer at PT. Sharsys Teknologi Hakiki" },
   { year: 2021, text: "Working at PT. Sekolahan Online Indonesia as a Front-End Developer" },
-  { year: 2022, text: "Working at PT. Swamedia Informatika as a Front-End Developer" },
-  { year: 2023, text: "Still working at PT. Swamedia Informatika as a Front-End Developer" },
-  { year: 2024, text: "Still working at PT. Swamedia Informatika as a Front-End Developer" },
+  { year: "2022-2025", text: "Working at PT. Swamedia Informatika as a Front-End Developer" }
 ];

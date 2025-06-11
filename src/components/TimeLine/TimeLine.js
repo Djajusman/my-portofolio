@@ -53,6 +53,15 @@ const Timeline = () => {
     }
   };
 
+  const formatYear = (year) => {
+    // If year is already a string (like "2022-2025"), return it as is
+    if (typeof year === 'string') {
+      return year;
+    }
+    // If year is a number, convert it to string
+    return year.toString();
+  };
+
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
@@ -91,7 +100,7 @@ const Timeline = () => {
                 onClick={(e) => handleClick(e, index)}
               >
                 <CarouselItemTitle>
-                  {`${item.year}`}
+                  {formatYear(item.year)}
                   <CarouselItemImg
                     width="208"
                     height="6"

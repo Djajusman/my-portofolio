@@ -71,9 +71,9 @@ export const CarouselItemTitle = styled.span`
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    white-space: nowrap; // Add this to prevent year range from breaking
 
     @media not all and (min-resolution:.001dpcm) {
-        //@supports () {}
         display: inline-block;
     }
 
